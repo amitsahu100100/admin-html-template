@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aditya Birla Group | Admin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/admin-styles.css" rel="stylesheet" />
+    <link href="fonts/outfit/stylesheet.css" rel="stylesheet" />
+    <link href="fonts/inter/stylesheet.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="adminmain-wrapper">
+      <div class="container-fluid p-0">
+        <div class="pannels-wrapper d-flex">
+          <!-- Left Panel  -->
+          <div class="left-pannel" id="navbarToggleExternalContent">
+            <span class="menu-closeicon"
+              ><i class="fa fa-times" aria-hidden="true"></i
+            ></span>
+            <div class="admin-logo text-center mb-4">
+              <img
+                src="images/admin-logo.jpg"
+                class="logo-img img-fluid"
+                alt="Admin Logo"
+              />
+            </div>
+            <div class="adminmenu-wrap">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="menuimg"
+                      src="images/dashboard.svg"
+                      alt="Menu Icon"
+                    />
+                    <span class="menu-text">Dashboard</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/subdomain.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Sub Domains</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/add-banner.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Banners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-event.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Events</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-partners.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Partners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-customer.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Customers</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-product.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Products</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-sme.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage SMEs</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-casestudy.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Case Studies</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-article.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Articles</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"  class="active"
+                    ><img
+                      class="menuimg"
+                      src="images/manageGroupCompany.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Businesses</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manageConfiguration.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Configuration</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right Panel  -->
+          <div class="right-pannel">
+            <!-- Profile and Trigger paneel -->
+            <div class="profile-header-top">
+              <div class="profile-header d-flex w-100">
+                <div class="profile-left navbar">
+                  <button class="navbar-toggler" type="button">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                  <span class="profile-lable">INNOVATION MICROSITE</span>
+                </div>
+                <div class="profile-right ms-auto">
+                  <div class="profileright-inner d-flex">
+                    <div class="profilename-wrap">
+                      <label class="profile-name">Aditya Singh</label>
+                      <span class="profile-designation">Super Admin</span>
+                      <span
+                        class="arrowdown"
+                        id="userprofileDropdown"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        ><i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></span>
+                      <div class="userdropdown">
+                        <ul
+                          class="dropdown-menu shadow-sm rounded"
+                          aria-labelledby="userprofileDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Login</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="profile-image ml-auto">
+                      <img
+                        class="profile-image"
+                        src="images/profile-image.png"
+                        alt="Profile image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-inner">
+              <div class="table-title mb-2"><h5>ADD NEW BUSINESS</h5></div>
+              <div class="add-section row flex-wrap w-100">
+                <div class="field1 col-md-4 col-sm-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Name <span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    aria-label="First name"
+                    class="form-control"
+                    placeholder="Enter Business Name"
+                  />
+                </div>
+
+                <div class="field1 bannerplace-wrap col-md-12 col-sm-12">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Status
+                  </label>
+                  <div class="bannerplace-inner d-flex mb-3">
+                    <div class="form-check me-4">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                        checked
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Draft
+                      </label>
+                    </div>
+                    <div class="form-check me-4">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault2"
+                        
+                      />
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Active
+                      </label>
+                    </div>
+                    <div class="form-check me-4">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Inactive
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Innovation Score -->
+              <div class="innovation-score-wrapper">
+                <div class="innovation-score-inner row m-0">
+                  <div class="innovation-grid col-lg-6 col-12 mb-3 mb-lg-0">
+                    <div class="innovation-title">Innovation Score</div>
+                    <div class="innovation-content">
+                      <div
+                        class="innovation-header d-flex mb-2 justify-content-between"
+                      >
+                        <div class="innovation-item inv-1">Parameters</div>
+                        <div class="text-center innovation-item inv-2">Score</div>
+                        <div class="text-center innovation-item inv-3">Weightage</div>
+                      </div>
+                      <div class="innovation-body">
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between">
+                          <div class="innv-inner inv-1">
+                           Project In Ideation Phase
+
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                             
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between">
+                          <div class="innv-inner inv-1">
+                            Project In Evolution Phase
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between">
+                          <div class="innv-inner inv-1">
+                            Project In Pilot Phase
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between">
+                          <div class="innv-inner inv-1">
+                            Project In Execution Phase
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div class="innovation-calculate text-end mt-3">
+                          <button
+                            type="button"
+                            class="btn btn-dark btn-common btn-cancel" >
+                            Calculate
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="innovation-grid col-lg-6 col-12 mb-3 mb-lg-0">
+                    <div class="innovation-title">Engagement Score</div>
+                    <div class="innovation-content">
+                      <div
+                        class="innovation-header d-flex mb-2 justify-content-between"
+                      >
+                        <div class="innovation-item inv-1">Parameters</div>
+                        <div class="text-center innovation-item inv-2">Score</div>
+                        <div class="text-center innovation-item inv-3">Weightage</div>
+                      </div>
+                      <div class="innovation-body">
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between" >
+                          <div class="innv-inner inv-1">
+                            1
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="20"
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between" >
+                          <div class="innv-inner inv-1">
+                            2
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score idt-value form-control"
+                              disabled
+                              value="15"
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between">
+                          <div class="innv-inner inv-1">
+                            3
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="innovation-body-innr d-flex mb-2 justify-content-between">
+                          <div class="innv-inner inv-1">
+                           4
+                          </div>
+                          <div class="innv-inner inv-2">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="40"
+                            />
+                          </div>
+                          <div class="innv-inner inv-3">
+                            <input
+                              type="text"
+                              name="text"
+                              class="score form-control"
+                              disabled
+                              value="25"
+                            />
+                          </div>
+                        </div>
+                        <div class="innovation-calculate text-end mt-3">
+                          <button
+                            type="button"
+                            class="btn btn-dark btn-common btn-cancel">
+                            Calculate
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="innovation-value-main score-head mt-3 pb-0">
+                    <div class="innovation-bottom col-12 row m-0">
+                      <div class="col-md-4 col-4">INNOVATION SCORE</div>
+                      <div class="col-md-4 col-4">ENGAGEMENT SCORE</div>
+                      <div class="col-md-4 col-4">TOTAL SCORE</div>
+                    </div>
+                  </div>
+                  <div class="innovation-value-main">
+                    <div class="innovation-bottom col-12 row m-0">
+                      <div class="col-md-4 col-4">-</div>
+                      <div class="col-md-4 col-4">2500</div>
+                      <div class="col-md-4 col-4">-</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bottom save and concel button  -->
+              <div class="submit-button-wrap">
+                <button
+                  type="button"
+                  class="btn btn-dark btn-common btn-cancel"
+                >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-dark btn-common btn-save">
+                  Save
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="admin-overlay"></div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    //Tooltip JS
+    var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  </script>
+</html>

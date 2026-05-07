@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aditya Birla Group | Admin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/admin-styles.css" rel="stylesheet" />
+    <link href="fonts/outfit/stylesheet.css" rel="stylesheet" />
+    <link href="fonts/inter/stylesheet.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="adminmain-wrapper">
+      <div class="container-fluid p-0">
+        <div class="pannels-wrapper d-flex">
+          <!-- Left Panel  -->
+          <div class="left-pannel" id="navbarToggleExternalContent">
+            <span class="menu-closeicon"
+              ><i class="fa fa-times" aria-hidden="true"></i
+            ></span>
+            <div class="admin-logo text-center mb-4">
+              <img
+                src="images/admin-logo.jpg"
+                class="logo-img img-fluid"
+                alt="Admin Logo"
+              />
+            </div>
+            <div class="adminmenu-wrap">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="menuimg"
+                      src="images/dashboard.svg"
+                      alt="Menu Icon"
+                    />
+                    <span class="menu-text">Dashboard</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/subdomain.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Sub Domains</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/add-banner.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Banners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-event.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Events</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#" class="active"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-partners.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Partners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-customer.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Customers</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-product.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Products</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-sme.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage SMEs</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-casestudy.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Case Studies</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-article.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Articles</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manageGroupCompany.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Businesses</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manageConfiguration.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Configuration</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right Panel  -->
+          <div class="right-pannel">
+            <!-- Profile and Trigger paneel -->
+            <div class="profile-header-top">
+              <div class="profile-header d-flex w-100">
+                <div class="profile-left navbar">
+                  <button class="navbar-toggler" type="button">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                  <span class="profile-lable">INNOVATION MICROSITE</span>
+                </div>
+                <div class="profile-right ms-auto">
+                  <div class="profileright-inner d-flex">
+                    <div class="profilename-wrap">
+                      <label class="profile-name">Aditya Singh</label>
+                      <span class="profile-designation">Super Admin</span>
+                      <span
+                        class="arrowdown"
+                        id="userprofileDropdown"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        ><i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></span>
+                      <div class="userdropdown">
+                        <ul
+                          class="dropdown-menu shadow-sm rounded"
+                          aria-labelledby="userprofileDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Login</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="profile-image ml-auto">
+                      <img
+                        class="profile-image"
+                        src="images/profile-image.png"
+                        alt="Profile image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-inner">
+              <div class="table-title mb-2"><h5>ADD NEW PARTNER</h5></div>
+              <div class="add-section row flex-wrap w-100 mb-3">
+                <div class="field1 col-md-4 col-sm-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Name <span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    aria-label="First name"
+                    class="form-control"
+                    placeholder="Enter Partner Name"
+                  />
+                </div>
+                <div class="field1 col-md-4 col-sm-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Website</label
+                  >
+                  <input
+                    type="text"
+                    aria-label="Website"
+                    class="form-control"
+                    placeholder="Enter Website Link"
+                  />
+                </div>
+                <div class="field1 col-md-4 col-sm-6">
+                  <div class="inputfile-wrap">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      >Image <span class="required">*</span></label
+                    >
+                    <div class="d-flex">
+                      <input type="file" id="actual-btn" hidden />
+                      <span id="file-chosen" class="form-control"
+                        >Upload Image</span
+                      >
+                      <label for="actual-btn" class="uploadicon"
+                        ><i class="fa fa-upload" aria-hidden="true"></i
+                      ></label>
+                    </div>
+                  </div>
+                </div>
+                <div class="field1 col-md-4 col-sm-6 mb-3 mb-lg-0">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Type</label
+                  >
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Select Partner Type</option>
+                    <option value="1">Partner Type1</option>
+                    <option value="2">Partner Type2</option>
+                    <option value="3">Partner Type3</option>
+                  </select>
+                </div>
+
+                <div class="field1 col-md-4 col-sm-6 mb-3 mb-lg-0">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Domain <span class="required">*</span></label
+                  >
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Select Domain</option>
+                    <option value="1">Domain1</option>
+                    <option value="2">Domain2</option>
+                    <option value="3">Domain3</option>
+                  </select>
+                </div>
+                <div class="field1 col-md-4 col-sm-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Country
+                  </label>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Select Country Name</option>
+                    <option value="1">Country1</option>
+                    <option value="2">Country2</option>
+                    <option value="3">Country3</option>
+                  </select>
+                </div>
+                <div class="field1 col-md-4 col-sm-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Link</label
+                  >
+                  <input
+                    type="text"
+                    aria-label="Link"
+                    class="form-control"
+                    placeholder="Enter Link"
+                  />
+                </div>
+                <div class="field1 bannerplace-wrap col-md-4 col-sm-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Preffered Partner <span class="required">*</span></label
+                  >
+                  <div class="custom-checkbox">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  </div>
+
+                </div>
+                <div class="field1 col-md-4 col-sm-6">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Technology
+                  </label>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Select Technology</option>
+                    <option value="1">Technology1</option>
+                    <option value="2">Technology2</option>
+                    <option value="3">Technology3</option>
+                  </select>
+                </div>
+
+                <div class="row-group field1 mt-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Point Of Contact Details
+                  </label>
+                  <div class="row row-inner-group">
+                    <div class="field1 col-md-4 col-sm-6 mb-3 mb-lg-0">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Name <span class="required">*</span></label
+                      >
+                      <input
+                        type="text"
+                        aria-label="Name"
+                        class="form-control"
+                        placeholder="Enter Name"
+                      />
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3 mb-lg-0">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email <span class="required">*</span></label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter Email"
+                      />
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3 mb-lg-0">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Mobile <span class="required">*</span></label
+                      >
+                      <input
+                        type="tel"
+                        id="typePhone"
+                        aria-label="mobile"
+                        class="form-control"
+                        placeholder="Enter Mobile Number"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row-group field1">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Innovation Engagement
+                  </label>
+                  <div class="row row-inner-group">
+                    <div class="field1 col-md-4 col-sm-6 mb-3 mb-lg-0">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Sub Domain <span class="required">*</span></label
+                      >
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Select Sub Domain</option>
+                        <option value="1">Sub Domain1</option>
+                        <option value="2">Sub Domain2</option>
+                        <option value="3">Sub Domain3</option>
+                      </select>
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Name of ABG Firm
+                      </label>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Select ABG Firm</option>
+                        <option value="1">ABG Firm1</option>
+                        <option value="2">ABG Firm2</option>
+                        <option value="3">ABG Firm3</option>
+                      </select>
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3 pos-set">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Project In charge/PoC
+                      </label>
+                      <input
+                        type="text"
+                        aria-label="Project In charge/POC"
+                        class="form-control"
+                        placeholder="Choose PoC In Charge"
+                      />
+                      <i class="fa fa-user"></i>
+                    </div>
+
+                    <div class="add-btn mt-2">
+                      <button type="button" class="btn btn-dark">Add</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="field1 col-md-12 col-sm-12">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Description</label
+                  >
+                  <textarea
+                    class="form-control custom-textarea"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="Enter Description"
+                  ></textarea>
+                </div>
+                <div class="field1 bannerplace-wrap col-md-12 col-sm-12">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Status
+                  </label>
+                  <div class="bannerplace-inner d-flex mb-3">
+                    <div class="form-check me-4">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                        checked
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Draft
+                      </label>
+                    </div>
+                    <div class="form-check me-4">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault2"
+                        
+                      />
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Active
+                      </label>
+                    </div>
+                    <div class="form-check me-4">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Inactive
+                      </label>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <div class="field1 col-md-12 col-sm-12">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Supporting Document</label
+                  >
+                  <div class="subdomain-attachement">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      >Document Description</label
+                    >
+                    <div class="d-flex mb-2 align-items-center">
+                      <input type="file" id="actual-btn" hidden />
+                      <span
+                        id="file-chosen"
+                        class="form-control subdomain-inputfile"
+                        >Mention Document Description</span
+                      >
+                      <label for="actual-btn" class="choosefile form-control"
+                        >Choose File</label
+                      >
+                      <label class="uploadicon upload-subdomain"
+                        ><i class="fa fa-upload" aria-hidden="true"></i
+                      ></label>
+                    </div>
+                    <div class="table-responsive custom-table-wrpper ms-0 me-0">
+                      <table
+                        class="table table-hover table-striped table-bordered mb-0"
+                        aria-describedby="Banner Table"
+                      >
+                        <thead class="table-header table-dark">
+                          <tr>
+                            <th scope="col" class="action-cell">&nbsp;</th>
+                            <th scope="col" class="custom-cell">
+                              Document Description
+                            </th>
+                            <th scope="col" class="custom-cell">File Name</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="action-cell">
+                              <span
+                                class="action-icon delete"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Delete"
+                                ><i class="fa fa-trash" aria-hidden="true"></i
+                              ></span>
+                              <span
+                                class="action-icon download"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Download"
+                                ><i
+                                  class="fa fa-download"
+                                  aria-hidden="true"
+                                ></i
+                              ></span>
+                            </td>
+                            <td class="custom-cell">Summery</td>
+                            <td class="custom-cell">Summery.docx</td>
+                          </tr>
+                          <tr>
+                            <td class="action-cell">
+                              <span
+                                class="action-icon delete"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Delete"
+                                ><i class="fa fa-trash" aria-hidden="true"></i
+                              ></span>
+                              <span
+                                class="action-icon download"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Download"
+                                ><i
+                                  class="fa fa-download"
+                                  aria-hidden="true"
+                                ></i
+                              ></span>
+                            </td>
+                            <td class="custom-cell">Data</td>
+                            <td class="custom-cell">Data.docx</td>
+                          </tr>
+                          <tr>
+                            <td class="action-cell">
+                              <span
+                                class="action-icon delete"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Delete"
+                                ><i class="fa fa-trash" aria-hidden="true"></i
+                              ></span>
+                              <span
+                                class="action-icon download"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Download"
+                                ><i
+                                  class="fa fa-download"
+                                  aria-hidden="true"
+                                ></i
+                              ></span>
+                            </td>
+                            <td class="custom-cell">Video</td>
+                            <td class="custom-cell">Splash.mp4</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom save and concel button  -->
+              <div class="submit-button-wrap">
+                <button
+                  type="button"
+                  class="btn btn-dark btn-common btn-cancel"
+                >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-dark btn-common btn-save">
+                  Save
+                </button>
+                <button type="button" class="btn btn-secondary btn-common btn-addnew">
+                  Save & Add New
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="admin-overlay"></div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    //Tooltip JS
+    var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  </script>
+</html>

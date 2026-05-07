@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aditya Birla Group | Admin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/admin-styles.css" rel="stylesheet" />
+    <link href="fonts/outfit/stylesheet.css" rel="stylesheet" />
+    <link href="fonts/inter/stylesheet.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="adminmain-wrapper">
+      <div class="container-fluid p-0">
+        <div class="pannels-wrapper d-flex">
+          <!-- Left Panel  -->
+          <div class="left-pannel" id="navbarToggleExternalContent">
+            <span class="menu-closeicon"
+              ><i class="fa fa-times" aria-hidden="true"></i
+            ></span>
+            <div class="admin-logo text-center mb-4">
+              <img
+                src="images/admin-logo.jpg"
+                class="logo-img img-fluid"
+                alt="Admin Logo"
+              />
+            </div>
+            <div class="adminmenu-wrap">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="menuimg"
+                      src="images/dashboard.svg"
+                      alt="Menu Icon"
+                    />
+                    <span class="menu-text">Dashboard</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/subdomain.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Sub Domains</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/add-banner.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Banners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-event.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Events</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-partners.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Partners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-customer.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Customers</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-product.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Products</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-sme.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage SMEs</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-casestudy.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Case Studies</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-article.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Articles</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manageGroupCompany.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Businesses</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#" class="active"
+                    ><img
+                      class="menuimg"
+                      src="images/manageConfiguration.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Configuration</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right Panel  -->
+          <div class="right-pannel">
+            <!-- Profile and Trigger paneel -->
+            <div class="profile-header-top">
+              <div class="profile-header d-flex w-100">
+                <div class="profile-left navbar">
+                  <button class="navbar-toggler" type="button">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                  <span class="profile-lable">INNOVATION MICROSITE</span>
+                </div>
+                <div class="profile-right ms-auto">
+                  <div class="profileright-inner d-flex">
+                    <div class="profilename-wrap">
+                      <label class="profile-name">Aditya Singh</label>
+                      <span class="profile-designation">Super Admin</span>
+                      <span
+                        class="arrowdown"
+                        id="userprofileDropdown"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        ><i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></span>
+                      <div class="userdropdown">
+                        <ul
+                          class="dropdown-menu shadow-sm rounded"
+                          aria-labelledby="userprofileDropdown"
+                        >
+                          <li><a class="dropdown-item" href="#">Login</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="profile-image ml-auto">
+                      <img
+                        class="profile-image"
+                        src="images/profile-image.png"
+                        alt="Profile image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-inner">
+              <div class="table-title mb-2"><h5>MANAGE CONFIGURATION</h5></div>
+              <div class="add-section row flex-wrap w-100 mb-3">
+                <div class="row-group field1">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label outerlabel">Email Configuration</label>
+                  <div class="row row-inner-group">
+                    <div class="field1 col-md-4 col-sm-6">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Sub Domain <span class="required">*</span></label
+                      >
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Sub Domain</option>
+                        <option value="1">Sub Domain1</option>
+                        <option value="2">Sub Domain2</option>
+                        <option value="3">Sub Domain3</option>
+                      </select>
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Event <span class="required">*</span></label>
+                      <input
+                        type="text"
+                        aria-label="Title"
+                        class="form-control"
+                        placeholder="Enter Event"
+                      />
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 pos-set">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Person Name <span class="required">*</span></label>
+                      <input
+                        type="text"
+                        aria-label="Sub Title"
+                        class="form-control"
+                        placeholder="Select Person"
+                      />
+                      <i class="fa fa-user"></i>
+                    </div>
+                     <div class="field1 col-md-4 col-sm-6">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email <span class="required">*</span></label>
+                      <input
+                        type="Email"
+                        aria-label="Sub Title"
+                        class="form-control"
+                        placeholder="Enter Email"
+                        
+                      />
+                    </div>
+                    <div class="field1 col-md-12 col-sm-12 text-end">
+                      <button type="button" class="btn btn-dark btn-common btn-cancel add-btn">Add</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row-group field1">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label outerlabel"
+                    >Team Configuration</label
+                  >
+                  <div class="row row-inner-group">
+                    <div class="field1 col-md-4 col-sm-6 pos-set mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Person Name <span class="required">*</span></label>
+                      <input
+                        type="text"
+                        aria-label="Sub Title"
+                        class="form-control"
+                        placeholder="Select Person"
+                      />
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Sub Domain </label
+                      >
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Sub Domain</option>
+                        <option value="1">Sub Domain1</option>
+                        <option value="2">Sub Domain2</option>
+                        <option value="3">Sub Domain3</option>
+                      </select>
+                    </div>
+
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email <span class="required">*</span></label
+                      >
+                      <input
+                        type="email"
+                        aria-label="Email"
+                        class="form-control"
+                        placeholder="Enter Email"
+                      />
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Designation <span class="required">*</span></label
+                      >
+                      <input
+                        type="text"
+                        aria-label="Designation"
+                        class="form-control"
+                        placeholder="Enter Designation"
+                      />
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3 mb-lg-0">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Contact Us <span class="required">*</span></label >
+                      <input
+                        type="text"
+                        aria-label="Contact"
+                        class="form-control"
+                        placeholder="Enter Contact Number"
+                      />
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3 mb-lg-0">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Sequence <span class="required">*</span></label >
+                      <input
+                        type="text"
+                        aria-label="Sequence"
+                        class="form-control"
+                        placeholder="Enter Sequence"
+                      />
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <div class="inputfile-wrap">
+                        <label
+                          for="exampleFormControlTextarea1"
+                          class="form-label"
+                          >Upload Image</label
+                        >
+                        <div class="d-flex">
+                          <input type="file" id="actual-btn" hidden />
+                          <span id="file-chosen" class="form-control"
+                            >Upload Image</span
+                          >
+                          <label for="actual-btn" class="uploadicon"
+                            ><i class="fa fa-upload" aria-hidden="true"></i
+                          ></label>
+                        </div>
+                      </div>
+                    </div> 
+                    <div class="field1 col-md-12 col-sm-12 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Description </label
+                      >
+                      <textarea
+                        class="form-control custom-textarea"
+                        id="exampleFormControlTextarea1"
+                        rows="3" placeholder="Enter Description"
+                      ></textarea>
+                    </div>
+
+                    <!-- Add Button -->
+                    <div
+                      class="field1 col-auto ms-auto text-center">
+                      <button  type="button"
+                        class="btn btn-dark btn-common btn-cancel add-btn mt-0">
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+
+                 <div class="row-group field1">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label outerlabel"
+                    >Testimonial Configuration</label>
+                  <div class="row row-inner-group">
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Title <span class="required">*</span></label>
+                      <input
+                        type="text"
+                        aria-label="Person"
+                        class="form-control"
+                        placeholder="Enter Title"
+                      />
+                    </div>
+
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Subbmitted By <span class="required">*</span></label>
+                      <input
+                        type="email"
+                        aria-label="Email"
+                        class="form-control"
+                        placeholder="Enter Name"
+                      />
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Designation <span class="required">*</span></label>
+                      <input
+                        type="text"
+                        aria-label="Designation"
+                        class="form-control"
+                        placeholder="Enter Designation"
+                      />
+                    </div>
+                    <div class="field1 col-md-4 col-sm-6 mb-3">
+                      <div class="inputfile-wrap">
+                        <label
+                          for="exampleFormControlTextarea1"
+                          class="form-label"
+                          >Image/Video</label
+                        >
+                        <div class="d-flex">
+                          <input type="file" id="actual-btn" hidden />
+                          <span id="file-chosen" class="form-control"
+                            >Upload Image/Video</span>
+                          <label for="actual-btn" class="uploadicon"
+                            ><i class="fa fa-upload" aria-hidden="true"></i
+                          ></label>
+                        </div>
+                      </div>
+                    </div> 
+                    <div class="field1 col-md-12 col-sm-12 mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Summary <span class="required">*</span></label>
+                      <textarea
+                        class="form-control custom-textarea"
+                        id="exampleFormControlTextarea1"
+                        rows="3" placeholder="Enter Summary"
+                      ></textarea>
+                    </div>
+
+                    <!-- Add Button -->
+                    <div
+                      class="field1 col-auto ms-auto text-center">
+                      <button  type="button"
+                        class="btn btn-dark btn-common btn-cancel add-btn mt-0">
+                        Add
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row-group field1">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label outerlabel"
+                    >Quick Links</label
+                  >
+                  <div class="row row-inner-group">
+                    <div class="quicklinks-wrap col-md-4 col-sm-12 mb-1">
+                      <a class="quicklink text-decoration-none" href="#">Manage Domains</a>
+                    </div>
+                    <div class="quicklinks-wrap col-md-4 col-sm-12 mb-1 text-md-center">
+                      <a class="quicklink text-decoration-none" href="#">Innovation Parameters</a>
+                    </div>
+                    <div class="quicklinks-wrap col-md-4 col-sm-12 mb-1 text-md-end">
+                      <a class="quicklink text-decoration-none" href="#">Admin Users</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom save and concel button  -->
+              <div class="submit-button-wrap">
+                <button
+                  type="button"
+                  class="btn btn-dark btn-common btn-cancel" >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-dark btn-common btn-save">
+                  Save
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="admin-overlay"></div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    //Tooltip JS
+    var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  </script>
+</html>

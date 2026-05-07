@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aditya Birla Group | Admin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/admin-styles.css" rel="stylesheet" />
+    <link href="fonts/outfit/stylesheet.css" rel="stylesheet" />
+    <link href="fonts/inter/stylesheet.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="adminmain-wrapper">
+      <div class="container-fluid p-0">
+        <div class="pannels-wrapper d-flex">
+          <!-- Left Panel  -->
+           <div class="left-pannel" id="navbarToggleExternalContent">
+            <span class="menu-closeicon"
+              ><i class="fa fa-times" aria-hidden="true"></i
+            ></span>
+            <div class="admin-logo text-center mb-4">
+              <img
+                src="images/admin-logo.jpg"
+                class="logo-img img-fluid"
+                alt="Admin Logo"
+              />
+            </div>
+            <div class="adminmenu-wrap">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="menuimg"
+                      src="images/dashboard.svg"
+                      alt="Menu Icon"
+                    />
+                    <span class="menu-text">Dashboard</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/subdomain.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Sub Domains</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/add-banner.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Banners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-event.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Events</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-partners.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Partners</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-customer.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Customers</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-product.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Products</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-sme.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage SMEs</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-casestudy.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Case Studies</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#" class="active"
+                    ><img
+                      class="menuimg"
+                      src="images/manage-article.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Articles</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manageGroupCompany.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Businesses</span></a
+                  >
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="menuimg"
+                      src="images/manageConfiguration.svg"
+                      alt="Menu Icon"
+                    /><span class="menu-text">Manage Configuration</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right Panel  -->
+          <div class="right-pannel">
+            <!-- Profile and Trigger paneel -->
+            <div class="profile-header-top">
+              <div class="profile-header d-flex w-100">
+                <div class="profile-left navbar">
+                  <button class="navbar-toggler" type="button">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                  <span class="profile-lable">INNOVATION MICROSITE</span>
+                </div>
+                <div class="profile-right ms-auto">
+                  <div class="profileright-inner d-flex">
+                    <div class="profilename-wrap">
+                      <label class="profile-name">Aditya Singh</label>
+                      <span class="profile-designation">Super Admin</span>
+                      <span
+                        class="arrowdown"
+                        id="userprofileDropdown"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        ><i class="fa fa-angle-down" aria-hidden="true"></i
+                      ></span>
+                      <div class="userdropdown">
+                        <ul
+                          class="dropdown-menu shadow-sm rounded"
+                          aria-labelledby="userprofileDropdown">
+                          <li><a class="dropdown-item" href="#">Login</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="profile-image ml-auto">
+                      <img
+                        class="profile-image"
+                        src="images/profile-image.png"
+                        alt="Profile image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Filter and table section -->
+            <div class="right-inner-top">
+              <!-- Filter section -->
+              <div
+                class="table-responsive select-filter d-flex justify-content-between">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Domain</option>
+                  <option value="1">Domain1</option>
+                  <option value="2">Domain2</option>
+                  <option value="3">Domain3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Sub Domain</option>
+                  <option value="1">Sub Domain1</option>
+                  <option value="2">Sub Domain2</option>
+                  <option value="3">Sub Domain3</option>
+                </select>
+                <input type="text" class="form-control searchbysmename" id="exampleFormControlInput1" placeholder="Search by Article Title">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Status</option>
+                  <option value="1">Active</option>
+                  <option value="2">Inactive</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Approval Status</option>
+                  <option value="1">Approved</option>
+                  <option value="2">Rejected</option>
+                  <option value="2">Pending</option>
+                </select>
+                <button type="button" class="btn reset-btn">Reset</button>
+                <button type="button" class="btn btn-dark">Search</button>
+              </div>
+              <!-- Table section -->
+              <div class="right-inner">
+                <div class="table-outer">
+                  <div class="table-inner">
+                    <div class="tabletitle-wrap d-flex">
+                      <div class="table-title"><h5>MANAGE ARTICLES</h5></div>
+                      <div class="tableright-iocn ms-auto d-flex">
+                        <div class="excelicon seticon">
+                          <img src="images/excel.png">
+                        </div>
+                        <div class="plusicon seticon">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-responsive custom-table-wrpper">
+                      <table
+                        class="table table-hover table-striped table-bordered mb-0" aria-describedby="Banner Table"
+                      >
+                        <thead class="table-header table-dark">
+                          <tr>
+                            <th scope="col" class="text-center action-cell fixed-width">
+                              &nbsp;
+                            </th>
+                            <th scope="col" class="custom-cell">Title</th>
+                            <th scope="col" class="custom-cell">Domain</th>
+                            <th scope="col" class="custom-cell">Sub Domain</th>
+                            <th scope="col" class="custom-cell">Publish Date</th>
+                            <th scope="col" class="custom-cell">Author</th>
+                            <th scope="col" class="custom-cell">Total Likes</th>
+                            <th scope="col" class="custom-cell">Status</th>
+                            <th scope="col" class="custom-cell">Approval Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="action-cell fixed-width">
+                              <span class="action-icon edit" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"
+                                ><i class="fa fa-pencil" aria-hidden="true"></i 
+                              ></span>
+                              <span class="action-icon delete" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
+                                ><i class="fa fa-trash" aria-hidden="true"></i
+                              ></span>
+                            </td>
+                            <td class="custom-cell">
+                              Title1
+                            </td>
+                            <td class="custom-cell">Process Innovation</td>
+                            <td class="custom-cell">@Water</td>
+                            <td class="custom-cell">1 jun 2023</td>
+                            <td class="custom-cell">Author1</td>
+                            <td class="custom-cell">1</td>
+                            <td class="custom-cell">
+                              <span class="status-active">Active</span>
+                            </td>
+                            <td class="custom-cell">
+                              <span class="status-active">Approved</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="action-cell fixed-width">
+                              <span class="action-icon edit" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"
+                                ><i class="fa fa-pencil" aria-hidden="true"></i 
+                              ></span>
+                              <span class="action-icon delete" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
+                                ><i class="fa fa-trash" aria-hidden="true"></i
+                              ></span>
+                            </td>
+                            <td class="custom-cell">
+                              Title2
+                            </td>
+                            <td class="custom-cell">Process Innovation</td>
+                            <td class="custom-cell">@Water</td>
+                            <td class="custom-cell">1 jun 2023</td>
+                            <td class="custom-cell">Author2</td>
+                            <td class="custom-cell">2</td>
+                            <td class="custom-cell">
+                              <span class="status-active">Active</span>
+                            </td>
+                            <td class="custom-cell">
+                              <span class="status-inactive">Rejected</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="action-cell fixed-width">
+                              <span class="action-icon edit" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"
+                                ><i class="fa fa-pencil" aria-hidden="true"></i 
+                              ></span>
+                              <span class="action-icon delete" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
+                                ><i class="fa fa-trash" aria-hidden="true"></i
+                              ></span>
+                              <span class="action-icon like" data-bs-toggle="tooltip" data-bs-placement="top" title="Like"
+                              ><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                            <span class="action-icon dislike" data-bs-toggle="tooltip" data-bs-placement="top" title="Dislike"
+                            ><i class="fa fa-thumbs-down" aria-hidden="true"></i></span>
+                            </td>
+                            <td class="custom-cell">
+                              Title3
+                            </td>
+                            <td class="custom-cell">Process Innovation</td>
+                            <td class="custom-cell">@Water</td>
+                            <td class="custom-cell">1 jun 2023</td>
+                            <td class="custom-cell">Author3</td>
+                            <td class="custom-cell">3</td>
+                            <td class="custom-cell">
+                              <span class="status-active">Active</span>
+                            </td>
+                            <td class="custom-cell">
+                              <span class="status-inactive">Pending</span>
+                            </td>
+                          </tr>
+                         
+                         
+                        </tbody>
+                      </table>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="admin-overlay"></div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    //Tooltip JS
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</html>
